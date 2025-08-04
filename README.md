@@ -71,4 +71,4 @@ MySQL または互換性のあるデータベース
 
 ## ライセンス
 
-このプロジェクトは MIT ライセンス のもとで公開されています。
+このプロジェクトは Creative Commons Attribution license のもとで公開されています。
