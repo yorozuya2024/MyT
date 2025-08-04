@@ -1,0 +1,88 @@
+#mainMbMenu {
+  min-height: 38px;
+  background: #1B253B;
+}
+#nav-bar {
+  /*background-color: #6FACCF;*/
+  margin: 0;
+  background: #1B253B;
+}
+
+#nav {
+  margin: 0 1em;
+}
+
+#nav ul {
+  min-width: 10em;
+}
+
+#nav li {
+  padding: 0.7em 1em;
+}
+
+#nav li > ul {
+  margin-top: -1px;
+  background-color: #fff;
+  border: 1px solid #1B253B;
+}
+
+#nav ul li.over ul {
+  top: 1em;
+  left: 5em;
+}
+
+#nav > li:hover {
+  background-color: rgba(124,203,252,.1);
+}
+
+#nav li li:hover {
+  background-color: #1B253B;
+}
+
+#nav li.parent > img {
+  margin-right: 0.67em;
+  vertical-align: text-bottom;
+}
+
+#nav li.parent:hover > a {
+
+}
+
+#nav li a,
+#nav li span {
+  color: #fff;
+  /*font-weight: bold;*/
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#nav li ul li > a {
+  color: #1B253B;
+}
+#nav li ul li.parent span {
+    color: #1B253B;
+}
+
+#nav li ul li:hover > a {
+  color: #fff;
+}
+
+#nav li ul li.parent:hover {
+  background: #1B253B;
+}
+
+#nav li ul li.parent:hover span {
+  color: #fff;
+}
+
+#nav > .last {
+  float: right;
+}
+
+#nav > li:not(.last){
+  float:left;
+}
+
+#nav:after{
+  content: "."; display: block; height: 0; line-height: 0; font-size: 0; clear: both; min-height: 0; visibility: hidden;
+}

@@ -1,0 +1,118 @@
+1.5.1 (2016-08-21)
+Bug Fixes
+	- Wrong Avatar Path on Installation
+	- Error "Prefix "PRJ" has already been taken" when attempting to edit existing project
+	- Cannot delete project
+	- User avatar disappear on user edit
+	- Error on Reset Password
+
+Improvements
+	- Changed Removed Filter Icon on all grid
+	- Project can be deleted only if hasn't project or task pending
+
+1.5.0 (2016-08-15)
+Bug Fixes
+	- Edit selected bug
+	- User association bug
+
+Features
+	- Multi theme feature
+	- New "fluid" theme
+	- New comments feature
+	- Yii framework updated to 1.1.17
+	- Removed hard coded css in some views
+	- Charge Multi month export
+
+1.4.2 (2015-08-17)
+Bug Fixes
+	- Fixed Bug with Task, Project, Charge creation / update date
+
+1.4.1 (2015-08-09)
+Bug Fixes
+	- Fixed Bug with Charges
+	- Fixed Bug Wrong localization for the datepicker ( thanks to dboisvert for report )
+ 
+Features
+	- Improved multilanguage support
+	- New delete confirmation for project with open tasks
+	- User filter in charges exporting
+
+1.4.0 (2015-07-05)
+Bug Fixes
+	- Fixed Menu Bug on Firefox
+	- Database Export problem on some MySQL configuration
+	- Date Picker Issue
+	- Task owners are not filtered by RollOff Date
+	- SMTP mail problem on PHP >= 5.5
+	- Charge Items (holiday, course etc) are not chargable by default
+	-	 Attachments fields not populated on installation
+ 
+Features
+	- SQLite Support
+	- Add User association shortcut on Project
+	- Added Task field on export charge
+	- Swiftmail upgraded to 5.4.1
+	- Added French (Canada) Translation ( thanks to dboisvert - https://github.com/ronzed/MyT_fr_CA )
+	- Added Spanish Translation ( thanks to perci.escobar )
+
+1.3.1 (2015-02-21)
+
+Bug Fixes
+	- Improved task Hierarchical view
+	- Query by Task's owner not working
+	- Admin All Charge view isn't added to anyone during the installation
+	- Fixed Project sorting
+	- Closed tasks have dates populated
+	- Fix task type for massive update
+	- Fix task status triggers for massive update
+	- Menu totally rewritten
+
+Features
+	- Project Chargable Flag
+
+1.3.0 (2015-02-10)
+
+Bug Fixes
+	- Minor bugfix on Charge queries
+	- Pagination issues fixed
+	- Hierarchical queries performance
+	- Copyright dates updated
+
+Features
+	- Check Update online
+	- Configurable Task Types
+	- Soft-delete for Task Types and Statuses
+
+1.2.0 (2015-01-15)
+
+Bug Fixes
+	- Minor bugfix
+
+Features
+	- Hierarchical Tasks
+	- New view: Charge by User
+	- Configurable Task Id length
+	- Non active / non rolled on Users are now not shown in Charges
+	- Reset Search
+
+1.1.0 (2014-12-29)
+
+Bug Fixes
+	- Minor bugfix
+
+Features
+	- Internationalization and Localization (i18n)
+	- New custom modal dialog for delete confirmation
+	- Upgrade Yii Framework to version: 1.1.16
+	- Automatic Upgrade Script for an easy upgrade
+	- MyT application now works with and without path URLs at same time
+	- Project Form UI enhancements
+
+1.0.1 (2014-10-26)
+
+Bug Fixes
+	- Minor bugfix
+
+1.0.0 (2014-08-16)
+
+First awesome release!
